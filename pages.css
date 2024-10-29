@@ -1,0 +1,91 @@
+/* Основной контейнер */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Иконка */
+#icon {
+    width: 50px;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+/* Заголовок страницы */
+.page h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+.page p {
+    text-align: center;
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Вопросы */
+.questions h2,
+.next-page h2 {
+    color: #2c3e50;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.questions p,
+.next-page p {
+    color: #555;
+    font-size: 1em;
+}
+
+/* Стили для списков */
+ol, ul {
+    margin-left: 20px;
+    padding-left: 0;
+    color: #333;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Ссылки */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Медиа-запрос для адаптивности */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    #icon {
+        width: 40px;
+    }
+
+    .page h1 {
+        font-size: 1.6em;
+    }
+
+    .questions h2, .next-page h2 {
+        font-size: 1.2em;
+    }
+
+    ol, ul {
+        margin-left: 15px;
+    }
+}
